@@ -1,120 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>HTML5 Semantic Boilerplate</title>
-  <meta name="description" content="A semantic HTML5 boilerplate with centered layout." />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio – Your Name</title>
 
-  <style>
-    /* Basic reset + readable defaults */
-    * { box-sizing: border-box; }
-    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.5; }
-
-    /* Center the page content */
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 24px;
-    }
-
-    header, main, footer {
-      border: 1px solid #e6e6e6;
-      border-radius: 12px;
-      padding: 16px;
-      margin-bottom: 16px;
-    }
-
-    header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 12px;
-      padding: 0;
-      margin: 0;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: inherit;
-      padding: 6px 10px;
-      border-radius: 8px;
-    }
-
-    nav a:hover, nav a:focus {
-      outline: none;
-      background: #f3f3f3;
-    }
-
-    footer {
-      text-align: center;
-      color: #555;
-      margin-bottom: 0;
-    }
-
-    /* Optional: better focus visibility */
-    :focus-visible { outline: 2px solid #000; outline-offset: 2px; }
-  </style>
+  <!-- 
+    CSS is optional in Assignment 2.
+    You may add a <style> block or external CSS later.
+  -->
 </head>
-
 <body>
-  <div class="container">
-    <header>
-      <div>
-        <h1 style="margin: 0; font-size: 1.25rem;">Your Name</h1>
-        <p style="margin: 4px 0 0; color: #555;">Frontend Developer</p>
-      </div>
 
-      <nav aria-label="Primary navigation">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+  <!-- =========================
+       HEADER
+       ========================= -->
+  <header>
+    <!-- TODO:
+         - Add your name (h1)
+         - Add short personal information
+         - Decide if navigation belongs here
+    -->
+  </header>
 
-    <main id="content">
-      <article id="about" aria-labelledby="about-title">
-        <header>
-          <h2 id="about-title" style="margin: 0;">About Me</h2>
-        </header>
+  <!-- =========================
+       MAIN CONTENT
+       ========================= -->
+  <main>
 
-        <p>
-          Write a short introduction here. Mention what you build, what you enjoy,
-          and what kind of problems you like solving.
-        </p>
+    <!-- === Portfolio / Works === -->
+    <section>
+      <!-- TODO:
+           - Choose appropriate heading level
+           - Use semantic grouping (article, figure, etc.)
+           - Add at least two items (image, link, video)
+      -->
+    </section>
 
-        <section id="projects" aria-labelledby="projects-title">
-          <h3 id="projects-title">Projects</h3>
-          <p>
-            Add a brief list or highlights of your work. Keep it concise and link to details as needed.
-          </p>
-        </section>
+    <!-- === Areas of Interest === -->
+    <section>
+      <!-- TODO:
+           - Add heading
+           - Use list or meaningful structure
+      -->
+    </section>
 
-        <section id="contact" aria-labelledby="contact-title">
-          <h3 id="contact-title">Contact</h3>
-          <p>
-            Reach me at <a href="mailto:you@example.com">you@example.com</a>.
-          </p>
-        </section>
-      </article>
-    </main>
+    <!-- Optional:
+         <aside> for secondary information
+    -->
 
-    <footer>
-      <small>&copy; <span id="year"></span> Your Name. All rights reserved.</small>
-    </footer>
-  </div>
+  </main>
 
-  <script>
-    // Tiny progressive enhancement: current year in footer
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+  <!-- =========================
+       FOOTER
+       ========================= -->
+  <footer>
+    <!-- TODO:
+         - Add social media links
+         - Consider <address> for contact info
+    -->
+  </footer>
+
 </body>
 </html>
