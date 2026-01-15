@@ -1,24 +1,21 @@
-# Browser Programming – Progressive Portfolio
+# Browser Programming 2026 – Progressive Portfolio
 
-This repository contains a personal portfolio developed progressively
-lecture by lecture during the Browser Programming course.
+This repository is a **GitHub Template** for students.
 
-Each lecture folder represents the state of the SAME portfolio after
-that lecture.
+Each lecture folder contains the state of your portfolio after that lecture.
 
-## How to work
-- In each lecture, copy the previous lecture folder
-- Rename it to the new lecture name
-- Improve it according to the lecture topic
-- Do NOT modify older folders
+## How to use
+1. Click **Use this template** → Create your own repo.
+2. For each lecture:
+   - Copy the previous folder
+   - Rename it to the current lecture
+   - Implement changes
+   - Add meaningful commits and update README
 
-## Final version
-The FINAL folder contains the deployable portfolio.
+## Live site
+(Later, add your GitHub Pages link here)
 
-Live site (GitHub Pages):
-<add link here>
-
-## Student information
+## Student
 Name:
 Degree programme:
-Year:
+Semester:
